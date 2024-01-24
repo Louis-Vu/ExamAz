@@ -1,0 +1,36 @@
+1. Phân Tích và Lựa Chọn Công Nghệ:
+Serverless Architecture:
+
+Lợi ích: Tự động mở rộng dựa trên nhu cầu, giảm chi phí trong những giai đoạn yêu cầu thấp.
+Lựa chọn: Có thể sử dụng AWS Lambda hoặc Azure Functions.
+Microservices Architecture:
+
+Lợi ích: Kiến trúc modul và dễ triển khai độc lập.
+Lựa chọn: Phân tách các chức năng như xử lý đơn hàng, quản lý hàng tồn, xác thực người dùng thành các dịch vụ độc lập.
+Containerization with Docker và Kubernetes:
+
+Lợi ích: Đảm bảo tính nhất quán trên các môi trường khác nhau, tính di động và mở rộng.
+Lựa chọn: Sử dụng Docker để đóng gói ứng dụng và Kubernetes để triển khai và quản lý các container.
+2. Web API cho Quản Lý Đơn Hàng:
+Code First Model:
+
+Sử dụng Entity Framework Core để định nghĩa các thực thể (entities) cho quản lý đơn hàng trong C#.
+Implement Web API:
+
+Tạo một Web API để xử lý các chức năng quản lý đơn hàng.
+Tích hợp Swagger để dễ dàng kiểm thử và tài liệu hóa API.
+Thêm Controller và Actions:
+
+Thêm một Controller để xử lý các hành động liên quan đến đơn hàng.
+Tạo các hành động (actions) để tạo đơn hàng mới và chỉnh sửa thông tin đơn hàng.
+3. Website Quản Lý Đơn Hàng:
+Front-End Framework:
+
+Lựa chọn một framework phổ biến như React, Angular cho giao diện người dùng.
+Integrate với Web API:
+
+Tích hợp website với Web API đã tạo ở bước trước.
+Xây dựng các giao diện người dùng cho việc đặt hàng, xem lịch sử đơn hàng, và chỉnh sửa thông tin đơn hàng.
+Authentication và Authorization:
+
+Xây dựng cơ chế xác thực và ủy quyền để đảm bảo truy cập an toàn và bảo mật.
